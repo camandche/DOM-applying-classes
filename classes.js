@@ -41,8 +41,8 @@ function three () {
 // CREATE FUNCTION makeVisible HERE
 function makeVisible () {
   // First, we have to find the element:
-  var makeVisible = document.getElementsByClassName('makeVisible')[0]
+  var fourthElement = document.getElementsByClassName('invisible')[0]
 
   // Next, we apply a new CSS class to it:
-  makeVisible.classList.add('visible')
+  fourthElement.classList.add('visible')
 }
